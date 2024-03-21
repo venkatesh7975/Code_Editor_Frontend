@@ -1,0 +1,55 @@
+/* FormFields.css */
+
+.editor-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.editor-title {
+  margin: 0;
+}
+
+.editor-body {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle {
+  margin-left: auto;
+}
+
+.loading {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.error {
+  font-weight: bold;
+  color: #dc3545;
+}
+/* FormFields.css */
+
+.editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+  margin-bottom: 20px;
+}
+
+.editor-title {
+  margin: 0;
+}
